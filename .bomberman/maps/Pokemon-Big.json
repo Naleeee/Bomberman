@@ -1,0 +1,138 @@
+{
+    "referenceModel": "./.bomberman/maps/Pokemon/model/Tree.iqm",
+    "player": {
+        "model": "./.bomberman/maps/Pokemon/model/Mewtwo.iqm",
+        "aiTexture": "./.bomberman/maps/Pokemon/texture/MewtwoOrange.png",
+        "textures": [
+            "./.bomberman/maps/Pokemon/texture/Mewtwo.png",
+            "./.bomberman/maps/Pokemon/texture/MewtwoBlack.png",
+            "./.bomberman/maps/Pokemon/texture/MewtwoBlue.png",
+            "./.bomberman/maps/Pokemon/texture/MewtwoBrown.png",
+            "./.bomberman/maps/Pokemon/texture/MewtwoCyan.png",
+            "./.bomberman/maps/Pokemon/texture/MewtwoRed.png",
+            "./.bomberman/maps/Pokemon/texture/MewtwoYellow.png"
+        ],
+        "animation": {
+            "path": "./.bomberman/maps/Pokemon/model/Mewtwo.iqm",
+            "fps": 60
+        },
+        "speed": 4,
+        "sounds": {
+            "takingDamage": "./.bomberman/maps/Pokemon/sound/TakeDamage.mp3",
+            "die": "./.bomberman/maps/Pokemon/sound/Die.mp3",
+            "dropBomb": "./.bomberman/maps/Pokemon/sound/DropBomb.mp3",
+            "noMoreBomb": "./.bomberman/maps/Pokemon/sound/NoMoreBomb.mp3"
+        }
+    },
+    "bomb": {
+        "model": "./.bomberman/maps/Pokemon/model/PokeBall.iqm",
+        "texture": "./.bomberman/maps/Pokemon/texture/PokeBall.png",
+        "animation": {
+            "path": "./.bomberman/maps/Pokemon/model/PokeBall.iqm",
+            "fps": 60
+        },
+        "sound": "./.bomberman/maps/Pokemon/sound/BombExplose.mp3",
+        "explosionModel": "./.bomberman/maps/Pokemon/model/Fire.iqm",
+        "explosionTexture": "./.bomberman/maps/Pokemon/texture/Fire.png",
+        "explosionAnimation": {
+            "path": "./.bomberman/maps/Pokemon/model/Fire.iqm",
+            "fps": 60
+        },
+        "explosionSound": "./.bomberman/maps/Pokemon/sound/Explosion.mp3"
+    },
+    "power-ups": {
+        "life": {
+            "model": "./.bomberman/maps/Pokemon/model/Heart.iqm",
+            "texture": "./.bomberman/maps/Pokemon/texture/Heart.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pokemon/model/Heart.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pokemon/sound/LifePowerUp.mp3"
+        },
+        "bombRange": {
+            "model": "./.bomberman/maps/Pokemon/model/FireBonus.iqm",
+            "texture": "./.bomberman/maps/Pokemon/texture/FireBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pokemon/model/FireBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pokemon/sound/BombRangePowerUp.mp3"
+        },
+        "bombNumber": {
+            "model": "./.bomberman/maps/Pokemon/model/BombBonus.iqm",
+            "texture": "./.bomberman/maps/Pokemon/texture/BombBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pokemon/model/BombBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pokemon/sound/BombNumberPowerUp.mp3"
+        },
+        "speed": {
+            "model": "./.bomberman/maps/Pokemon/model/SpeedBonus.iqm",
+            "texture": "./.bomberman/maps/Pokemon/texture/SpeedBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pokemon/model/SpeedBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pokemon/sound/SpeedPowerUp.mp3"
+        }
+    },
+    "identifiers": {
+        "walls": [
+            {
+                "identifier": "#",
+                "model": "./.bomberman/maps/Pokemon/model/Tree.iqm",
+                "texture": "./.bomberman/maps/Pokemon/texture/Tree.png",
+                "groundModel": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            },
+            {
+                "identifier": "D",
+                "model": "./.bomberman/maps/Pokemon/model/Diglett.iqm",
+                "texture": "./.bomberman/maps/Pokemon/texture/Diglett.png",
+                "groundModel": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            }
+        ],
+        "grounds": [
+            {
+                "identifier": ".",
+                "model": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "texture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            }
+        ],
+        "boxes": [
+            {
+                "identifier": "G",
+                "model": "./.bomberman/maps/Pokemon/model/Zubat.iqm",
+                "texture": "./.bomberman/maps/Pokemon/texture/Zubat.png",
+                "groundModel": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            }
+        ],
+        "players": [
+            {
+                "identifier": "1",
+                "groundModel": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            },
+            {
+                "identifier": "2",
+                "groundModel": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            },
+            {
+                "identifier": "3",
+                "groundModel": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            },
+            {
+                "identifier": "4",
+                "groundModel": "./.bomberman/maps/Pokemon/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Pokemon/texture/Way.png"
+            }
+        ]
+    },
+    "map": "./.bomberman/maps/Pokemon/pokemon_map_big.txt"
+}

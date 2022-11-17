@@ -1,0 +1,191 @@
+{
+    "referenceModel": "./.bomberman/maps/Mountain/model/Wall.iqm",
+    "player": {
+        "model": "./.bomberman/maps/Mountain/model/Bomberman.iqm",
+        "aiTexture": "./.bomberman/maps/Mountain/texture/BombermanRed.png",
+        "textures": [
+            "./.bomberman/maps/Mountain/texture/Bomberman.png",
+            "./.bomberman/maps/Mountain/texture/BombermanBlue.png",
+            "./.bomberman/maps/Mountain/texture/BombermanDark.png",
+            "./.bomberman/maps/Mountain/texture/BombermanGreen.png",
+            "./.bomberman/maps/Mountain/texture/BombermanOrange.png",
+            "./.bomberman/maps/Mountain/texture/BombermanPink.png",
+            "./.bomberman/maps/Mountain/texture/BombermanYellow.png"
+        ],
+        "animation": {
+            "path": "./.bomberman/maps/Mountain/model/Bomberman.iqm",
+            "fps": 60
+        },
+        "speed": 4,
+        "sounds": {
+            "takingDamage": "./.bomberman/maps/Mountain/sound/TakeDamage.mp3",
+            "die": "./.bomberman/maps/Mountain/sound/Die.mp3",
+            "dropBomb": "./.bomberman/maps/Mountain/sound/DropBomb.mp3",
+            "noMoreBomb": "./.bomberman/maps/Mountain/sound/NoMoreBomb.mp3"
+        }
+    },
+    "bomb": {
+        "model": "./.bomberman/maps/Mountain/model/Bomb.iqm",
+        "texture": "./.bomberman/maps/Mountain/texture/Bomb.png",
+        "animation": {
+            "path": "./.bomberman/maps/Mountain/model/Bomb.iqm",
+            "fps": 60
+        },
+        "sound": "./.bomberman/maps/Mountain/sound/BombExplose.mp3",
+        "explosionModel": "./.bomberman/maps/Mountain/model/Fire.iqm",
+        "explosionTexture": "./.bomberman/maps/Mountain/texture/Fire.png",
+        "explosionAnimation": {
+            "path": "./.bomberman/maps/Mountain/model/Fire.iqm",
+            "fps": 60
+        },
+        "explosionSound": "./.bomberman/maps/Mountain/sound/Explosion.mp3"
+    },
+    "power-ups": {
+        "life": {
+            "model": "./.bomberman/maps/Mountain/model/Heart.iqm",
+            "texture": "./.bomberman/maps/Mountain/texture/Heart.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mountain/model/Heart.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mountain/sound/LifePowerUp.mp3"
+        },
+        "bombRange": {
+            "model": "./.bomberman/maps/Mountain/model/FireBonus.iqm",
+            "texture": "./.bomberman/maps/Mountain/texture/FireBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mountain/model/FireBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mountain/sound/BombRangePowerUp.mp3"
+        },
+        "bombNumber": {
+            "model": "./.bomberman/maps/Mountain/model/BombBonus.iqm",
+            "texture": "./.bomberman/maps/Mountain/texture/BombBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mountain/model/BombBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mountain/sound/BombNumberPowerUp.mp3"
+        },
+        "speed": {
+            "model": "./.bomberman/maps/Mountain/model/SpeedBonus.iqm",
+            "texture": "./.bomberman/maps/Mountain/texture/SpeedBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mountain/model/SpeedBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mountain/sound/SpeedPowerUp.mp3"
+        }
+    },
+    "identifiers": {
+        "walls": [
+            {
+                "identifier": "#",
+                "model": "./.bomberman/maps/Mountain/model/Wall.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Gradient.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "R",
+                "model": "./.bomberman/maps/Mountain/model/Rock.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Gradient.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            }
+        ],
+        "grounds": [
+            {
+                "identifier": "|",
+                "model": "./.bomberman/maps/Mountain/model/WayHorizontal.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "-",
+                "model": "./.bomberman/maps/Mountain/model/WayVertical.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "+",
+                "model": "./.bomberman/maps/Mountain/model/CrossWay.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Way.png"
+            }
+        ],
+        "boxes": [
+            {
+                "identifier": "V",
+                "model": "./.bomberman/maps/Mountain/model/Stump.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Stump.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/WayHorizontal.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "H",
+                "model": "./.bomberman/maps/Mountain/model/Stump.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Stump.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/WayVertical.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": ".",
+                "model": "./.bomberman/maps/Mountain/model/Stump.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Stump.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/CrossWay.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "A",
+                "model": "./.bomberman/maps/Mountain/model/StumpAxe1.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Stump.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/CrossWay.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "X",
+                "model": "./.bomberman/maps/Mountain/model/StumpAxe2.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Stump.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/CrossWay.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "E",
+                "model": "./.bomberman/maps/Mountain/model/StumpAxe3.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Stump.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/CrossWay.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "T",
+                "model": "./.bomberman/maps/Mountain/model/StumpAxe3.iqm",
+                "texture": "./.bomberman/maps/Mountain/texture/Stump.png",
+                "groundModel": "./.bomberman/maps/Mountain/model/CrossWay.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            }
+        ],
+        "players": [
+            {
+                "identifier": "1",
+                "groundModel": "./.bomberman/maps/Mountain/model/WayBendLT.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "2",
+                "groundModel": "./.bomberman/maps/Mountain/model/WayBendLD.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "3",
+                "groundModel": "./.bomberman/maps/Mountain/model/WayBendRT.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            },
+            {
+                "identifier": "4",
+                "groundModel": "./.bomberman/maps/Mountain/model/WayBendRD.iqm",
+                "groundTexture": "./.bomberman/maps/Mountain/texture/Way.png"
+            }
+        ]
+    },
+    "map": "./.bomberman/maps/Mountain/mountain_map_big.txt"
+}
+

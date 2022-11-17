@@ -1,0 +1,182 @@
+{
+    "referenceModel": "./.bomberman/maps/Road/model/Barrier.iqm",
+    "player": {
+        "model": "./.bomberman/maps/Road/model/Policeman.iqm",
+        "aiTexture": "./.bomberman/maps/Road/texture/PolicemanBrown.png",
+        "textures": [
+            "./.bomberman/maps/Road/texture/Policeman.png",
+            "./.bomberman/maps/Road/texture/PolicemanRed.png",
+            "./.bomberman/maps/Road/texture/PolicemanPink.png",
+            "./.bomberman/maps/Road/texture/PolicemanDark.png",
+            "./.bomberman/maps/Road/texture/PolicemanCyan.png",
+            "./.bomberman/maps/Road/texture/PolicemanGreen.png",
+            "./.bomberman/maps/Road/texture/PolicemanYellow.png",
+            "./.bomberman/maps/Road/texture/PolicemanPurple.png"
+        ],
+        "animation": {
+            "path": "./.bomberman/maps/Road/model/Policeman.iqm",
+            "fps": 60
+        },
+        "speed": 4,
+        "sounds": {
+            "takingDamage": "./.bomberman/maps/Road/sound/TakeDamage.mp3",
+            "die": "./.bomberman/maps/Road/sound/Die.mp3",
+            "dropBomb": "./.bomberman/maps/Road/sound/DropBomb.mp3",
+            "noMoreBomb": "./.bomberman/maps/Road/sound/NoMoreBomb.mp3"
+        }
+    },
+    "bomb": {
+        "model": "./.bomberman/maps/Road/model/JerryCan.iqm",
+        "texture": "./.bomberman/maps/Road/texture/JerryCan.png",
+        "animation": {
+            "path": "./.bomberman/maps/Road/model/JerryCan.iqm",
+            "fps": 60
+        },
+        "sound": "./.bomberman/maps/Road/sound/BombExplose.mp3",
+        "explosionModel": "./.bomberman/maps/Road/model/Fire.iqm",
+        "explosionTexture": "./.bomberman/maps/Road/texture/Fire.png",
+        "explosionAnimation": {
+            "path": "./.bomberman/maps/Road/model/Fire.iqm",
+            "fps": 60
+        },
+        "explosionSound": "./.bomberman/maps/Road/sound/Explosion.mp3"
+    },
+    "power-ups": {
+        "life": {
+            "model": "./.bomberman/maps/Road/model/Heart.iqm",
+            "texture": "./.bomberman/maps/Road/texture/Heart.png",
+            "animation": {
+                "path": "./.bomberman/maps/Road/model/Heart.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Road/sound/LifePowerUp.mp3"
+        },
+        "bombRange": {
+            "model": "./.bomberman/maps/Road/model/FireBonus.iqm",
+            "texture": "./.bomberman/maps/Road/texture/FireBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Road/model/FireBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Road/sound/BombRangePowerUp.mp3"
+        },
+        "bombNumber": {
+            "model": "./.bomberman/maps/Road/model/BombBonus.iqm",
+            "texture": "./.bomberman/maps/Road/texture/BombBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Road/model/BombBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Road/sound/BombNumberPowerUp.mp3"
+        },
+        "speed": {
+            "model": "./.bomberman/maps/Road/model/SpeedBonus.iqm",
+            "texture": "./.bomberman/maps/Road/texture/SpeedBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Road/model/SpeedBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Road/sound/SpeedPowerUp.mp3"
+        }
+    },
+    "identifiers": {
+        "walls": [
+            {
+                "identifier": "#",
+                "model": "./.bomberman/maps/Road/model/Barrier.iqm",
+                "texture": "./.bomberman/maps/Road/texture/Barrier.png",
+                "groundModel": "./.bomberman/maps/Road/model/Road2.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "Q",
+                "model": "./.bomberman/maps/Road/model/Barrier.iqm",
+                "texture": "./.bomberman/maps/Road/texture/Barrier.png",
+                "groundModel": "./.bomberman/maps/Road/model/Road1.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "C",
+                "model": "./.bomberman/maps/Road/model/Cone.iqm",
+                "texture": "./.bomberman/maps/Road/texture/Cone.png",
+                "groundModel": "./.bomberman/maps/Road/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Way.png"
+            }
+        ],
+        "grounds": [
+            {
+                "identifier": "|",
+                "model": "./.bomberman/maps/Road/model/Road2.iqm",
+                "texture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "-",
+                "model": "./.bomberman/maps/Road/model/Road1.iqm",
+                "texture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "+",
+                "model": "./.bomberman/maps/Road/model/RoadCross.iqm",
+                "texture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": ".",
+                "model": "./.bomberman/maps/Road/model/Grass.iqm",
+                "texture": "./.bomberman/maps/Road/texture/Way.png"
+            }
+        ],
+        "boxes": [
+            {
+                "identifier": "R",
+                "model": "./.bomberman/maps/Road/model/Wheel.iqm",
+                "texture": "./.bomberman/maps/Road/texture/WheelRed.png",
+                "groundModel": "./.bomberman/maps/Road/model/RoadCross.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "G",
+                "model": "./.bomberman/maps/Road/model/Wheel.iqm",
+                "texture": "./.bomberman/maps/Road/texture/WheelGreen.png",
+                "groundModel": "./.bomberman/maps/Road/model/Road1.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "B",
+                "model": "./.bomberman/maps/Road/model/Wheel.iqm",
+                "texture": "./.bomberman/maps/Road/texture/WheelBlue.png",
+                "groundModel": "./.bomberman/maps/Road/model/Road2.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "W",
+                "model": "./.bomberman/maps/Road/model/Wheel.iqm",
+                "texture": "./.bomberman/maps/Road/texture/WheelWhite.png",
+                "groundModel": "./.bomberman/maps/Road/model/RoadCross.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            }
+        ],
+        "players": [
+            {
+                "identifier": "1",
+                "groundModel": "./.bomberman/maps/Road/model/RoadT2.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "2",
+                "groundModel": "./.bomberman/maps/Road/model/RoadT1.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "3",
+                "groundModel": "./.bomberman/maps/Road/model/RoadT3.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            },
+            {
+                "identifier": "4",
+                "groundModel": "./.bomberman/maps/Road/model/RoadT4.iqm",
+                "groundTexture": "./.bomberman/maps/Road/texture/Road.png"
+            }
+        ]
+    },
+    "map": "./.bomberman/maps/Road/road_map_big.txt"
+}

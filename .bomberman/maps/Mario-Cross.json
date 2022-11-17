@@ -1,0 +1,188 @@
+{
+    "referenceModel": "./.bomberman/maps/Mario/model/Bricks.iqm",
+    "player": {
+        "model": "./.bomberman/maps/Mario/model/Mario.iqm",
+        "aiTexture": "./.bomberman/maps/Mario/texture/Luigi.png",
+        "textures": [
+            "./.bomberman/maps/Mario/texture/Mario.png",
+            "./.bomberman/maps/Mario/texture/MarioWhite.png",
+            "./.bomberman/maps/Mario/texture/MarioBrown.png",
+            "./.bomberman/maps/Mario/texture/MarioBlack.png",
+            "./.bomberman/maps/Mario/texture/MarioYellow.png",
+            "./.bomberman/maps/Mario/texture/MarioBlue.png",
+            "./.bomberman/maps/Mario/texture/MarioPurple.png"
+        ],
+        "texture": "./.bomberman/maps/Mario/texture/Mario.png",
+        "animation": {
+            "path": "./.bomberman/maps/Mario/model/Mario.iqm",
+            "fps": 60
+        },
+        "speed": 4,
+        "sounds": {
+            "takingDamage": "./.bomberman/maps/Mario/sound/TakeDamage.mp3",
+            "die": "./.bomberman/maps/Mario/sound/Die.mp3",
+            "dropBomb": "./.bomberman/maps/Mario/sound/DropBomb.mp3",
+            "noMoreBomb": "./.bomberman/maps/Mario/sound/NoMoreBomb.mp3"
+        }
+    },
+    "bomb": {
+        "model": "./.bomberman/maps/Mario/model/CaraBlue.iqm",
+        "texture": "./.bomberman/maps/Mario/texture/CaraBlue.png",
+        "animation": {
+            "path": "./.bomberman/maps/Mario/model/CaraBlue.iqm",
+            "fps": 60
+        },
+        "sound": "./.bomberman/maps/Mario/sound/BombExplose.mp3",
+        "explosionModel": "./.bomberman/maps/Mario/model/Fire.iqm",
+        "explosionTexture": "./.bomberman/maps/Mario/texture/Fire.png",
+        "explosionAnimation": {
+            "path": "./.bomberman/maps/Mario/model/Fire.iqm",
+            "fps": 60
+        },
+        "explosionSound": "./.bomberman/maps/Mario/sound/Explosion.mp3"
+    },
+    "power-ups": {
+        "life": {
+            "model": "./.bomberman/maps/Mario/model/Heart.iqm",
+            "texture": "./.bomberman/maps/Mario/texture/Heart.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mario/model/Heart.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mario/sound/LifePowerUp.mp3"
+        },
+        "bombRange": {
+            "model": "./.bomberman/maps/Mario/model/FireBonus.iqm",
+            "texture": "./.bomberman/maps/Mario/texture/FireBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mario/model/FireBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mario/sound/BombRangePowerUp.mp3"
+        },
+        "bombNumber": {
+            "model": "./.bomberman/maps/Mario/model/BombBonus.iqm",
+            "texture": "./.bomberman/maps/Mario/texture/BombBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mario/model/BombBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mario/sound/BombNumberPowerUp.mp3"
+        },
+        "speed": {
+            "model": "./.bomberman/maps/Mario/model/SpeedBonus.iqm",
+            "texture": "./.bomberman/maps/Mario/texture/SpeedBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Mario/model/SpeedBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Mario/sound/SpeedPowerUp.mp3"
+        }
+    },
+    "identifiers": {
+        "walls": [
+            {
+                "identifier": "#",
+                "model": "./.bomberman/maps/Mario/model/Bricks.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/Bricks.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "B",
+                "model": "./.bomberman/maps/Mario/model/BlockInterro.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/BlockInterro.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "P",
+                "model": "./.bomberman/maps/Mario/model/PowBlock.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/PowBlock.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "T",
+                "model": "./.bomberman/maps/Mario/model/Pipe.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/Pipe.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "A",
+                "model": "./.bomberman/maps/Mario/model/PlantPirahna.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/PlantPirahna.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "G",
+                "model": "./.bomberman/maps/Mario/model/PlantPirahna2.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/PlantPirahna.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "F",
+                "model": "./.bomberman/maps/Mario/model/PlantPirahna3.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/PlantPirahna.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "K",
+                "model": "./.bomberman/maps/Mario/model/PlantPirahna4.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/PlantPirahna.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            }
+        ],
+        "grounds": [
+            {
+                "identifier": ".",
+                "model": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/Grass.png"
+            }
+        ],
+        "boxes": [
+            {
+                "identifier": "V",
+                "model": "./.bomberman/maps/Mario/model/BlockInterro2.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/BlockInterro.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "M",
+                "model": "./.bomberman/maps/Mario/model/Goomba.iqm",
+                "texture": "./.bomberman/maps/Mario/texture/Goomba.png",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            }
+        ],
+        "players": [
+            {
+                "identifier": "1",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "2",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "3",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            },
+            {
+                "identifier": "4",
+                "groundModel": "./.bomberman/maps/Mario/model/Grass.iqm",
+                "groundTexture": "./.bomberman/maps/Mario/texture/Grass.png"
+            }
+        ]
+    },
+    "map": "./.bomberman/maps/Mario/mario_map_cross.txt"
+}

@@ -1,0 +1,15 @@
+#################
+#2-+H.H.H.HEH+-1#
+#|RVRVRVRVRVRVR|#
+#.HXH.H.HTH.H.H.#
+#|RVRVRVRVRVRVR|#
+#.H.HEH.H.HXH.H.#
+#|RVRVRVRVRVRVR|#
+#.HEH.HXH.HTH.H.#
+#|RVRVRVRVRVRVR|#
+#.HTH.H.HEH.H.H.#
+#|RVRVRVRVRVRVR|#
+#.H.HXH.H.H.HEH.#
+#|RVRVRVRVRVRVR|#
+#4-+H.HEHTH.H+-3#
+#################

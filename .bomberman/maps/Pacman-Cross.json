@@ -1,0 +1,152 @@
+{
+    "referenceModel": "./.bomberman/maps/Pacman/model/Wall.iqm",
+    "player": {
+        "model": "./.bomberman/maps/Pacman/model/Bomberman.iqm",
+        "aiTexture": "./.bomberman/maps/Pacman/texture/BombermanRed.png",
+        "textures": [
+            "./.bomberman/maps/Pacman/texture/Bomberman.png",
+            "./.bomberman/maps/Pacman/texture/BombermanBlue.png",
+            "./.bomberman/maps/Pacman/texture/BombermanDark.png",
+            "./.bomberman/maps/Pacman/texture/BombermanGreen.png",
+            "./.bomberman/maps/Pacman/texture/BombermanOrange.png",
+            "./.bomberman/maps/Pacman/texture/BombermanPink.png",
+            "./.bomberman/maps/Pacman/texture/BombermanYellow.png"
+        ],
+        "animation": {
+            "path": "./.bomberman/maps/Pacman/model/Bomberman.iqm",
+            "fps": 60
+        },
+        "speed": 4,
+        "sounds": {
+            "takingDamage": "./.bomberman/maps/Pacman/sound/TakeDamage.mp3",
+            "die": "./.bomberman/maps/Pacman/sound/Die.mp3",
+            "dropBomb": "./.bomberman/maps/Pacman/sound/DropBomb.mp3",
+            "noMoreBomb": "./.bomberman/maps/Pacman/sound/NoMoreBomb.mp3"
+        }
+    },
+    "bomb": {
+        "model": "./.bomberman/maps/Pacman/model/Cherry.iqm",
+        "texture": "./.bomberman/maps/Pacman/texture/Cherry.png",
+        "animation": {
+            "path": "./.bomberman/maps/Pacman/model/Cherry.iqm",
+            "fps": 60
+        },
+        "sound": "./.bomberman/maps/Pacman/sound/BombExplose.mp3",
+        "explosionModel": "./.bomberman/maps/Pacman/model/Fire.iqm",
+        "explosionTexture": "./.bomberman/maps/Pacman/texture/Fire.png",
+        "explosionAnimation": {
+            "path": "./.bomberman/maps/Pacman/model/Fire.iqm",
+            "fps": 60
+        },
+        "explosionSound": "./.bomberman/maps/Pacman/sound/Explosion.mp3"
+    },
+    "power-ups": {
+        "life": {
+            "model": "./.bomberman/maps/Pacman/model/Heart.iqm",
+            "texture": "./.bomberman/maps/Pacman/texture/Heart.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pacman/model/Heart.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pacman/sound/LifePowerUp.mp3"
+        },
+        "bombRange": {
+            "model": "./.bomberman/maps/Pacman/model/FireBonus.iqm",
+            "texture": "./.bomberman/maps/Pacman/texture/FireBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pacman/model/FireBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pacman/sound/BombRangePowerUp.mp3"
+        },
+        "bombNumber": {
+            "model": "./.bomberman/maps/Pacman/model/BombBonus.iqm",
+            "texture": "./.bomberman/maps/Pacman/texture/BombBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pacman/model/BombBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pacman/sound/BombNumberPowerUp.mp3"
+        },
+        "speed": {
+            "model": "./.bomberman/maps/Pacman/model/SpeedBonus.iqm",
+            "texture": "./.bomberman/maps/Pacman/texture/SpeedBonus.png",
+            "animation": {
+                "path": "./.bomberman/maps/Pacman/model/SpeedBonus.iqm",
+                "fps": 60
+            },
+            "sound": "./.bomberman/maps/Pacman/sound/SpeedPowerUp.mp3"
+        }
+    },
+    "identifiers": {
+        "walls": [
+            {
+                "identifier": "#",
+                "model": "./.bomberman/maps/Pacman/model/Wall.iqm",
+                "texture": "./.bomberman/maps/Pacman/texture/Wall.png",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            }
+        ],
+        "grounds": [
+            {
+                "identifier": ".",
+                "model": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "texture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            }
+        ],
+        "boxes": [
+            {
+                "identifier": "R",
+                "model": "./.bomberman/maps/Pacman/model/Ghost.iqm",
+                "texture": "./.bomberman/maps/Pacman/texture/GhostRed.png",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            },
+            {
+                "identifier": "B",
+                "model": "./.bomberman/maps/Pacman/model/Ghost.iqm",
+                "texture": "./.bomberman/maps/Pacman/texture/GhostBlue.png",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            },
+            {
+                "identifier": "Y",
+                "model": "./.bomberman/maps/Pacman/model/Ghost.iqm",
+                "texture": "./.bomberman/maps/Pacman/texture/GhostYellow.png",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            },
+            {
+                "identifier": "O",
+                "model": "./.bomberman/maps/Pacman/model/Ghost.iqm",
+                "texture": "./.bomberman/maps/Pacman/texture/GhostOrange.png",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            }
+        ],
+        "players": [
+            {
+                "identifier": "1",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            },
+            {
+                "identifier": "2",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            },
+            {
+                "identifier": "3",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            },
+            {
+                "identifier": "4",
+                "groundModel": "./.bomberman/maps/Pacman/model/Ground.iqm",
+                "groundTexture": "./.bomberman/maps/Pacman/texture/Ground.png"
+            }
+        ]
+    },
+    "map": "./.bomberman/maps/Pacman/pacman_map_cross.txt"
+}
